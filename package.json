@@ -1,0 +1,15 @@
+{
+  "name": "GenerousStridentAfkgaming",
+  "version": "1.0.0",
+  "description": "[Getting started with web extensions](https://extensionworkshop.com/documentation/develop/getting-started-with-web-ext/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "web-ext": "^4.2.0"
+  }
+}

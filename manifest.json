@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "name": "hearts",
+  "description": "Heart pages you visit",
+  "version": "0.0.1",
+  "icons": {
+    "64": "icons/icon.png"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "hearts@stefi.codes"
+    }
+  },
+  "browser_action": {
+    "default_icon": {
+      "64": "icons/icon.png"
+    },
+    "default_title": "hearts"
+  },
+  "options_ui": {
+    "page": "options/index.html"
+  },
+  "background": {
+    "scripts": ["backgroundscript.js"]
+  },
+  "permissions": ["tabs", "storage"]
+}
